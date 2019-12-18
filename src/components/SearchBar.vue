@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style scoped>
-
+.search-bar{
+    position:sticky;
+    top:10px;
+}
 </style>

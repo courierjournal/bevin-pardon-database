@@ -4,8 +4,9 @@
   "private": true,
   "data": "https://docs.google.com/spreadsheets/d/11U1ZMWz3hdq5Qcboaj354mE9i6grcvBqL24Y0k_PE0g/edit?usp=sharing",
   "scripts": {
+    "data" : "node lib/get-data.js",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "npm run data && vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
